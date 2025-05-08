@@ -1,0 +1,72 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "User controller API",
+        "description": "This is a sample API",
+        "contact": {
+            "email": "developer@example.com"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https:\/\/opensource.org\/licenses\/MIT"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "\/api\/users": {
+            "get": {
+                "summary": "Get all users",
+                "operationId": "636846955b23cd692aa7b1e909254d37",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "\/api\/users\/{id}": {
+            "get": {
+                "summary": "Get all users",
+                "operationId": "b196bcfd82a90263e3e3c3bfb6c765a8",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "\/api\/users\/create": {
+            "post": {
+                "summary": "Create a new user",
+                "operationId": "140f05428a02a6bf643933cbf998cb0d",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "\/api\/users\/update\/{id}": {
+            "put": {
+                "summary": "Update a user by id",
+                "operationId": "0d3972988b3c2d32a544dcdc11549d0a",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "\/api\/users\/delete\/{id}": {
+            "delete": {
+                "summary": "Delete a user by id",
+                "operationId": "d98848e26a2076ff6ee4ae6a0a3b2c29",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        }
+    }
+}

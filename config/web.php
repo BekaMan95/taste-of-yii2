@@ -47,6 +47,8 @@ $config = [
             'showScriptName' => false,
             'enableStrictParsing' => false,
             'rules' => [
+                '/docs' => 'swagger/index',
+
                 // Define your API routes here
                 'POST /api/<controller:[\w-]+>s/create' => '<controller>/create',
                 'GET /api/<controller:[\w-]+>s' => '<controller>/index',
